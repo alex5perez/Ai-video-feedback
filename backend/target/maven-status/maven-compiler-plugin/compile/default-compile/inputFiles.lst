@@ -1,2 +1,6 @@
+/workspaces/ai-video-feedback/backend/src/main/java/com/ai/feedback/client/HuggingFaceClient.java
 /workspaces/ai-video-feedback/backend/src/main/java/com/ai/feedback/controller/PingController.java
 /workspaces/ai-video-feedback/backend/src/main/java/com/ai/feedback/AiFeedbackApplication.java
+/workspaces/ai-video-feedback/backend/src/main/java/com/ai/feedback/model/TranscriptionResponse.java
+/workspaces/ai-video-feedback/backend/src/main/java/com/ai/feedback/controller/TranscriptionController.java
+/workspaces/ai-video-feedback/backend/src/main/java/com/ai/feedback/service/TranscriptionService.java
