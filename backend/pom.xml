@@ -8,13 +8,12 @@
   <artifactId>backend</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
-  <name>ai-video-feedback</name>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>3.2.5</version>
-    <relativePath/> <!-- lookup parent from repository -->
+    <relativePath/>
   </parent>
 
   <properties>
@@ -22,31 +21,28 @@
   </properties>
 
   <dependencies>
-    <!-- Web API -->
+    <!-- REST API -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 
-    <!-- Validación -->
+    <!-- Validations -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-validation</artifactId>
     </dependency>
 
-    <!-- Test -->
+    <!-- Tests -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
-
-    <!-- Más adelante: JSON, Seguridad, PostgreSQL, etc. -->
   </dependencies>
 
   <build>
     <plugins>
-      <!-- Plugin para empaquetar como ejecutable -->
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
